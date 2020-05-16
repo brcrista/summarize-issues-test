@@ -1,36 +1,23 @@
 ### My Issues Report
-
+### Summary of Repair items
+| Section Title | Labels | Threshold | Count | Status |
+| -- | -- | -- | -- | -- |
+| [Repair items](#Repair-items) | `incident-repair`, `short-term` | 10 | 2 | 💚🥳 |
 ### Summary of Another section
 | Section Title | Labels | Threshold | Count | Status |
 | -- | -- | -- | -- | -- |
-| [Section Title](Link to Section Below) | `bug` | 2 | 0 | :green_heart: |
-
-
-### Summary of Another section
-| Section Title | Labels | Threshold | Count | Status |
-| -- | -- | -- | -- | -- |
-| [Section Title](Link to Section Below) | `bug` | 2 | 0 | :green_heart: |
-
+| [Another section](#Another-section) | `bug` | 2 | 0 | 💚🥳 |
 ## Details
-
-## Details
-### :green_heart: Repair items [Link to Query](Link)
-Total : 5
-Threshold : 10
-Labels : `incident-repair`, `short-term`
+### 💚🥳 Repair items [(query)](https://github.com)
+Total: 2
+Threshold: 10
+Labels: `incident-repair`, `short-term`
 | Owner | Count |
 | -- | -- |
-| [PersonA](Link) | 5 |
-| [PersonB](Link) | 5 |
-
-
-## Details
-### :green_heart: Repair items [Link to Query](Link)
-Total : 5
-Threshold : 10
-Labels : `incident-repair`, `short-term`
+| [brcrista](https://github.com/brcrista) | [object Object] |
+### 💚🥳 Another section [(query)](https://github.com)
+Total: 0
+Threshold: 2
+Labels: `bug`
 | Owner | Count |
 | -- | -- |
-| [PersonA](Link) | 5 |
-| [PersonB](Link) | 5 |
-
