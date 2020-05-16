@@ -1,4 +1,4 @@
-name: CI
+name: Generate issues report
 
 on: issues
 
@@ -6,7 +6,7 @@ env:
   OUTPUT_FILE_NAME: IssuesReport.md
   COMMITTER_EMAIL: 33549821+brcrista@users.noreply.github.com
   COMMITTER_NAME: Brian Cristante
-  COMMITTER_USERNAME: brcrista 
+  COMMITTER_USERNAME: brcrista
 
 jobs:
   build:
@@ -18,12 +18,11 @@ jobs:
     - uses: brcrista/summarize-issues@dev
       with:
         title: 'My Issues Report'
-        outputPath: ${{ env.OUTPUT_FILE_NAME }}
         configPath: '.github/workflows/issues-report-config.json'
+        outputPath: ${{ env.OUTPUT_FILE_NAME }}
 
     - name: "Commit if any changes were made"
       run: |
-        ls -la        
         git remote add github "https://$COMMITTER_USERNAME:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY.git"
         git pull github ${GITHUB_REF} --ff-only
         if [[ `git status --porcelain` ]]; then
