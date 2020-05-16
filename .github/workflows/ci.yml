@@ -1,0 +1,14 @@
+name: CI
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: brcrista/summarize-issues@dev
+      with:
+        title: 'My Issues Report'
+        outputPath: 'IssuesReport.md'
+        configPath: 'issues-report.json'
