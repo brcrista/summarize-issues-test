@@ -6,7 +6,7 @@
 ### Summary of Another section
 | Section Title | Labels | Threshold | Count | Status |
 | -- | -- | -- | -- | -- |
-| [Another section](#Another-section) | `bug` | 2 | 0 | 💚🥳 |
+| [Another section](#Another-section) | `bug` | 2 | 1 | 💚🥳 |
 ## Details
 ### 💚🥳 Repair items [(query)](https://github.com)
 Total: 2
@@ -16,8 +16,9 @@ Labels: `incident-repair`, `short-term`
 | -- | -- |
 | [brcrista](https://github.com/brcrista) | [object Object] |
 ### 💚🥳 Another section [(query)](https://github.com)
-Total: 0
+Total: 1
 Threshold: 2
 Labels: `bug`
 | Owner | Count |
 | -- | -- |
+| [brcrista](https://github.com/brcrista) | [object Object] |
