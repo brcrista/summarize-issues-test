@@ -2,11 +2,11 @@
 ### Summary of Repair items
 | Section Title | Labels | Threshold | Count | Status |
 | -- | -- | -- | -- | -- |
-| [Repair items](#Repair-items) | `incident-repair`, `short-term` | 10 | 2 | 💚🥳 |
+| [Repair items](#-Repair-items-query) | `incident-repair`, `short-term` | 10 | 2 | 💚🥳 |
 ### Summary of Another section
 | Section Title | Labels | Threshold | Count | Status |
 | -- | -- | -- | -- | -- |
-| [Another section](#Another-section) | `bug` | 2 | 1 | 💚🥳 |
+| [Another section](#-Another-section-query) | `bug` | 2 | 1 | 💚🥳 |
 ## Details
 ### 💚🥳 Repair items [(query)](https://github.com/brcrista/summarize-issues-test/issues?q=is%3Aissue+is%3Aopen+label%3Aincident-repair+label%3Ashort-term)
 Total: 2
