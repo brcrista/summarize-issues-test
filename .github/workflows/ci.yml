@@ -1,6 +1,7 @@
 name: Generate issues report
 
 # Use `push` for easier testing.
+# Note that `push` won't re-trigger for the file we commit in this workflow.
 # In real life, you probably want to run on a schedule.
 # You can also try `on: issue`, but that generates a lot of events!
 on: push
