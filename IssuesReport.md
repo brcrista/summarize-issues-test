@@ -15,6 +15,7 @@ Labels: `incident-repair`, `short-term`
 | Owner | Count |
 | -- | -- |
 | [brcrista](https://github.com/brcrista/summarize-issues-test/issues?q=is%3Aissue+is%3Aopen+label%3Aincident-repair+label%3Ashort-term+assignee%3Abrcrista) | 1 |
+| [**Unassigned**](https://github.com/brcrista/summarize-issues-test/issues?q=is%3Aissue+is%3Aopen+label%3Aincident-repair+label%3Ashort-term+no%3Aassignee) | 1 |
 ### 💚🥳 Another section [(query)](https://github.com/brcrista/summarize-issues-test/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 Total: 1
 
