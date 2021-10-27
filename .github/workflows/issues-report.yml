@@ -1,10 +1,9 @@
 name: Generate issues report
 
-# Use `push` for easier testing.
-# Note that `push` won't re-trigger for the file we commit in this workflow.
+# Use `workflow_dispatch` for easier testing.
 # In real life, you probably want to run on a schedule.
 # You can also try `on: issue`, but that generates a lot of events!
-on: push
+on: workflow_dispatch
 
 env:
   OUTPUT_FILE_NAME: IssuesReport.md
